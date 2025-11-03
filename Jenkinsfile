@@ -15,6 +15,7 @@ pipeline {
                     docker run -d --name static-nginx -p 80:80 nginx-static-site
                 '''
             }
-        }
-    }
+        }
+    }
 }
+																								
